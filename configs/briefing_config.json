@@ -1,0 +1,13 @@
+{
+  "hours": 24,
+  "top_n_politics": 10,
+  "top_n_other": 7,
+  "eps": {
+    "politics": 0.7,
+    "economy": 0.65,
+    "society": 0.65,
+    "international": 0.65
+  },
+  "sim_min": 0.18,
+  "low_sim": 0.25
+}
