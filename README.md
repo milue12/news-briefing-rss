@@ -141,13 +141,3 @@ crontab -e
 ```cron
 0 8 * * * cd /home/<USER>/workspace/news-briefing-rss && /home/<USER>/miniconda3/envs/news-briefing/bin/python /home/<USER>/workspace/news-briefing-rss/src/run_daily.py >> /home/<USER>/workspace/news-briefing-rss/logs/cron.log 2>&1
 ```
-
----
-
-## 주의사항
-
-* RSS/기사 컨텐츠는 각 언론사/플랫폼 이용조건을 준수해야 합니다.
-* 본 프로젝트는 **링크 중심 개인 브리핑 생성** 용도로 설계했습니다(원문 대량 저장/재배포 지양).
-
-```
-```
